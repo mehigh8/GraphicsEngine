@@ -1,0 +1,80 @@
+<Scene name="simple_scene" screen_resolution="1280 720" screen_bg_color="0.000000 0.000000 0.000000 1.000000" global_light="0.250000 0.250000 0.250000">
+    <Camera position="-0.690871 0.946859 4.482787" orientation="255.000000 -2.000000" fov="45" zNear="0.1" zFar="100"/>
+    <Meshes count="2">
+        <Mesh meshID="cube">
+            <Vertex position="-0.500000 -0.500000 0.500000" normal="0.000000 -1.000000 0.000000" texCoords="0.000000 1.000000" color="1.000000 0.000000 0.000000"/>
+            <Vertex position="-0.500000 -0.500000 -0.500000" normal="0.000000 -1.000000 0.000000" texCoords="0.000000 0.000000" color="1.000000 0.000000 0.000000"/>
+            <Vertex position="0.500000 -0.500000 0.500000" normal="0.000000 -1.000000 0.000000" texCoords="1.000000 1.000000" color="1.000000 0.000000 0.000000"/>
+            <Vertex position="0.500000 -0.500000 -0.500000" normal="0.000000 -1.000000 0.000000" texCoords="1.000000 0.000000" color="1.000000 0.000000 0.000000"/>
+            <Vertex position="-0.500000 -0.500000 0.500000" normal="0.000000 0.000000 -1.000000" texCoords="0.000000 0.000000" color="0.000000 1.000000 0.000000"/>
+            <Vertex position="0.500000 -0.500000 0.500000" normal="0.000000 0.000000 -1.000000" texCoords="1.000000 0.000000" color="0.000000 1.000000 0.000000"/>
+            <Vertex position="-0.500000 0.500000 0.500000" normal="0.000000 0.000000 -1.000000" texCoords="0.000000 1.000000" color="0.000000 1.000000 0.000000"/>
+            <Vertex position="0.500000 0.500000 0.500000" normal="0.000000 0.000000 -1.000000" texCoords="1.000000 1.000000" color="0.000000 1.000000 0.000000"/>
+            <Vertex position="0.500000 -0.500000 0.500000" normal="1.000000 0.000000 0.000000" texCoords="0.000000 0.000000" color="0.000000 0.000000 1.000000"/>
+            <Vertex position="0.500000 -0.500000 -0.500000" normal="1.000000 0.000000 0.000000" texCoords="1.000000 0.000000" color="0.000000 0.000000 1.000000"/>
+            <Vertex position="0.500000 0.500000 0.500000" normal="1.000000 0.000000 0.000000" texCoords="0.000000 1.000000" color="0.000000 0.000000 1.000000"/>
+            <Vertex position="0.500000 0.500000 -0.500000" normal="1.000000 0.000000 0.000000" texCoords="1.000000 1.000000" color="0.000000 0.000000 1.000000"/>
+            <Vertex position="0.500000 -0.500000 -0.500000" normal="0.000000 0.000000 1.000000" texCoords="0.000000 0.000000" color="1.000000 1.000000 0.000000"/>
+            <Vertex position="-0.500000 -0.500000 -0.500000" normal="0.000000 0.000000 1.000000" texCoords="1.000000 0.000000" color="1.000000 1.000000 0.000000"/>
+            <Vertex position="0.500000 0.500000 -0.500000" normal="0.000000 0.000000 1.000000" texCoords="0.000000 1.000000" color="1.000000 1.000000 0.000000"/>
+            <Vertex position="-0.500000 0.500000 -0.500000" normal="0.000000 0.000000 1.000000" texCoords="1.000000 1.000000" color="1.000000 1.000000 0.000000"/>
+            <Vertex position="-0.500000 0.500000 0.500000" normal="0.000000 1.000000 0.000000" texCoords="0.000000 0.000000" color="1.000000 0.000000 1.000000"/>
+            <Vertex position="0.500000 0.500000 0.500000" normal="0.000000 1.000000 0.000000" texCoords="1.000000 0.000000" color="1.000000 0.000000 1.000000"/>
+            <Vertex position="-0.500000 0.500000 -0.500000" normal="0.000000 1.000000 0.000000" texCoords="0.000000 1.000000" color="1.000000 0.000000 1.000000"/>
+            <Vertex position="0.500000 0.500000 -0.500000" normal="0.000000 1.000000 0.000000" texCoords="1.000000 1.000000" color="1.000000 0.000000 1.000000"/>
+            <Vertex position="-0.500000 -0.500000 -0.500000" normal="-1.000000 0.000000 0.000000" texCoords="0.000000 0.000000" color="0.000000 1.000000 1.000000"/>
+            <Vertex position="-0.500000 -0.500000 0.500000" normal="-1.000000 0.000000 0.000000" texCoords="1.000000 0.000000" color="0.000000 1.000000 1.000000"/>
+            <Vertex position="-0.500000 0.500000 -0.500000" normal="-1.000000 0.000000 0.000000" texCoords="0.000000 1.000000" color="0.000000 1.000000 1.000000"/>
+            <Vertex position="-0.500000 0.500000 0.500000" normal="-1.000000 0.000000 0.000000" texCoords="1.000000 1.000000" color="0.000000 1.000000 1.000000"/>
+            <Index indices="0 1 2"/>
+            <Index indices="2 1 3"/>
+            <Index indices="4 5 6"/>
+            <Index indices="6 5 7"/>
+            <Index indices="8 9 10"/>
+            <Index indices="10 9 11"/>
+            <Index indices="12 13 14"/>
+            <Index indices="14 13 15"/>
+            <Index indices="16 17 18"/>
+            <Index indices="18 17 19"/>
+            <Index indices="20 21 22"/>
+            <Index indices="22 21 23"/>
+        </Mesh>
+        <Mesh meshID="bamboo" directory="models/bamboo" file="bamboo.obj"/>
+    </Meshes>
+    <Shaders count="4">
+        <Shader shaderID="base" path="shaders/base"/>
+        <Shader shaderID="basic_texture" path="shaders/basic_texture"/>
+        <Shader shaderID="phong" path="shaders/phong"/>
+        <Shader shaderID="light" path="shaders/light"/>
+    </Shaders>
+    <Textures count="1">
+        <Texture textureID="crate" path="textures/crate.png"/>
+    </Textures>
+    <UIElements count="5">
+        <UIElement elementID="text1" position="50.000000 100.000000" uiType="text" text="Hello world" color="0.000000 1.000000 0.000000 1.000000" fontSize="24"/>
+        <UIElement elementID="slider1" position="50.000000 50.000000" uiType="slider" size="300.000000 20.000000" value="0.70000005" bgColor="0.200000 0.200000 0.200000 1.000000" fillColor="1.000000 0.000000 0.000000 1.000000"/>
+        <UIElement elementID="input1" position="50.000000 150.000000" uiType="inputText" size="300" text="Hello world" bgColor="0.200000 0.200000 0.200000 1.000000" textColor="1.000000 1.000000 1.000000 1.000000"/>
+        <UIElement elementID="button1" position="50.000000 200.000000" uiType="button" size="300.000000 50.000000" text="Update text" normalColor="0.800000 0.800000 0.800000 1.000000" hoveredColor="0.900000 0.900000 0.900000 1.000000" activeColor="0.700000 0.700000 0.700000 1.000000" textColor="0.000000 0.000000 0.000000 1.000000"/>
+        <UIElement elementID="dropdown1" position="50.000000 300.000000" uiType="dropdown" size="300" currentItem="1" bgColor="0.850000 0.850000 0.850000 1.000000" hoverColor="0.900000 0.900000 0.900000 1.000000" activeColor="0.800000 0.800000 0.800000 1.000000" popupColor="0.900000 0.900000 0.900000 1.000000" textColor="0.000000 0.000000 0.000000 1.000000">
+            <DropdownItem item="red"/>
+            <DropdownItem item="green"/>
+            <DropdownItem item="blue"/>
+        </UIElement>
+    </UIElements>
+    <GameObjects count="4">
+        <GameObject objectID="cube" mesh="cube" shader="base">
+            <Transform position="0.000000 0.000000 0.000000" rotation="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000"/>
+        </GameObject>
+        <GameObject objectID="crate" mesh="cube" shader="basic_texture">
+            <Transform position="5.000000 0.000000 0.000000" rotation="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000"/>
+            <Material ambient="0.000000 0.000000 0.000000 0.000000" diffuse="0.000000 0.000000 0.000000 0.000000" specular="0.000000 0.000000 0.000000 0.000000" emissive="0.000000 0.000000 0.000000 0.000000" shininess="0" texture="crate"/>
+        </GameObject>
+        <GameObject objectID="bamboo" mesh="bamboo" shader="basic_texture">
+            <Transform position="-5.000000 0.000000 0.000000" rotation="0.000000 0.000000 0.000000" scale="0.100000 0.100000 0.100000"/>
+        </GameObject>
+        <GameObject objectID="movableLight" mesh="cube" shader="light">
+            <Transform position="-1.944332 0.500000 0.742115" rotation="0.000000 0.000000 0.000000" scale="0.250000 0.250000 0.250000"/>
+            <Light lightType="Point" color="1.000000 1.000000 1.000000"/>
+        </GameObject>
+    </GameObjects>
+</Scene>
