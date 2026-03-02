@@ -14,4 +14,4 @@ A fully functional 3D graphics engine made in OpenGL having the following featur
 - XML scene saving/loading
 - UI Elements
 
-A detailed documentation can be found at: []()
+A detailed documentation can be found at: [Documentation.pdf](https://github.com/mehigh8/GraphicsEngine/blob/main/Documentation.pdf)
