@@ -14,4 +14,8 @@ A fully functional 3D graphics engine made in OpenGL having the following featur
 - XML scene saving/loading
 - UI Elements
 
+## How to run
+
+Just clone the repository and open the **ProiectMG3D.sln** Visual Studio solution
+
 A detailed documentation can be found at: [Documentation.pdf](https://github.com/mehigh8/GraphicsEngine/blob/main/Documentation.pdf)
